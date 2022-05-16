@@ -142,27 +142,4 @@ exports.deleteTodo = (req, res) => {
   });
 };
 
-exports.checkUser = (req, res) => {
-  // Validation area
-  const data = {
-    userName: req.userName,
-    password: req.password,
-  };
-
-  usersService.login(data, (error, results) => {
-    try {
-      if (error) {
-        return false;
-      }
-      if(results){
-        return results;
-      }else{
-        return false;
-      }
-    } catch (error) {
-      console.log(error);
-      return false;
-    }  
-  });
-};
 

@@ -5,7 +5,7 @@ const db = createPool({
     host:"",
     user:"",
     password:"",
-    database:"assignment",
+    database:"assessment",
     connectionLimit:10
 });
 /**  Connection pool creation - END */
