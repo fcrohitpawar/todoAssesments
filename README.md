@@ -36,7 +36,7 @@ Step 2 : update below db connection details
 	    host:"",
 	    user:"",
 	    password:"",
-	    database:"assignment"
+	    database:"assessment"
 
 
 Step 3 : Run on cmd : npm install
