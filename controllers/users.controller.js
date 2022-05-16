@@ -127,7 +127,7 @@ exports.markTodoDone = (req, res) => {
 
 exports.deleteTodo = (req, res) => {
   const data = {
-    productId: req.body.productId,
+    toDoId: req.body.toDoId,
   };
   
   usersService.deleteTodo(data, (error, results) => {

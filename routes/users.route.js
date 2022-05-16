@@ -252,9 +252,9 @@ router.post("/login", usersController.login);
    router.post("/deleteTodo", checkToken, usersController.deleteTodo);
    /**
     * @swagger
-    * /users/deleteProduct:
+    * /users/deleteTodo:
     *   post:
-    *      description: Delete Product
+    *      description: Delete todo
     *      tags:
     *          - Todo
     *      parameters:

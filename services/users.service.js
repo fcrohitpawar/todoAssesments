@@ -133,13 +133,13 @@ exports.markTodoDone = (data, callback) => {
 exports.deleteTodo = (data, callback) => {
   db.query(
     `DELETE FROM toDo where id = ?`,
-    [data.productId],
+    [data.toDoId],
     (error, results, fields) => {
       if (error) {
         console.log(error)
         return callback(error);
       }
-      return callback(null, `product created`);
+      return callback(null, `delete todo`);
     }
   );
 };
