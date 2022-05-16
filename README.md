@@ -1,7 +1,7 @@
 # assessment
 Nodejs rest API
 
-Databases: users,product
+Databases: users,toDo
 
 Step 1 : Database Setup mysql 
 
