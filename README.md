@@ -48,10 +48,10 @@ Step 5 : check on below url (Here i have added swagger ui for rest api call)
        http://localhost:8080/api-docs/
 
 Step 6 : create one user.
- 
+
 Step 7 : login user once login it will return token in login API response get that token and click on Authorize button put token as a value and click on Authorize button and then you can access all api 
 
-Note : Ex. Bearer <token>
+Note : Ex. Bearer token
 
 
 
